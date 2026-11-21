@@ -1,14 +1,5 @@
-::: {align="center"}
-🏡 WanderBricks
-SQL Data Analytics | Real Estate & Property Booking Insights
-![Platform](https://img.shields.io/badge/Platform-Databricks-orange?logo=databricks&logoColor=white)
-![Language](https://img.shields.io/badge/Language-SQL-blue?logo=sql&logoColor=white)
-[![Domain](https://img.shields.io/badge/Domain-Real%20Estate%20Analytics-2ea44f)]()
-[![Project](https://img.shields.io/badge/Project-Data%20Analytics-purple)]()
-Turning property and booking data into actionable business insights
-using SQL on Databricks.
-:::
----
+
+🏡 WanderBricks SQL Data Analytics | Real Estate & Property Booking Insights
 📌 Table of Contents
 📖 Project Overview
 🎯 Business Objectives
@@ -23,6 +14,7 @@ Insights
 📁 Suggested Repository
 Structure
 🏷️ GitHub Topics
+
 📖 Project Overview
 WanderBricks is a SQL data analytics project focused on real-estate
 properties and booking operations. Developed using Databricks SQL,
@@ -33,6 +25,7 @@ business KPIs, compare city and host performance, examine booking
 trends, and identify frequently listed property amenities. The objective
 is to convert structured data into useful metrics that can support
 business monitoring and decision-making.
+
 🎯 Business Objectives
 Measure platform scale through users, properties, bookings, hosts,
 cities, and amenities.
@@ -43,6 +36,7 @@ Analyze booking activity by month and property type.
 Examine booking statuses and cancellations across cities.
 Identify the most frequently listed amenities.
 Present query outputs in a clear, business-focused format.
+
 🗂️ Dataset Description
 Dataset Detail      Description
 ---
@@ -65,6 +59,7 @@ Employees      Total employee count
 > outputs, but does not list all nine physical table names, column
 > definitions, or table relationships. Add the verified Databricks
 > schema before documenting individual source tables.
+
 🛠️ Tools and Technologies
 Tool / Concept                Purpose
 ---
@@ -78,6 +73,7 @@ Date functions                Monthly booking analysis
 GitHub                        Project documentation and version control
 Only list additional technologies such as Power BI or Python if they
 were used in the project.
+
 📊 Key Business KPIs
 The following figures are reported in the supplied Excel analysis
 workbook.
@@ -101,6 +97,7 @@ overall total and status breakdown, so validate the underlying query
 definitions before treating those two figures as final KPIs.
 Currency is not identified in the supplied workbook; revenue is
 therefore shown without a currency symbol.
+
 🔎 SQL Analysis Performed
 1. 📌 Business KPI Analysis
 Total users, properties, bookings, hosts, cities, amenities, and
@@ -175,6 +172,7 @@ Top 5 amenities by reported count
        3 Smoke Detector     3,198
        4 Terrace            3,198
        5 First Aid Kit      3,173
+       
 
 📈 Visualizations
 Use the following chart ideas to communicate the analysis results:
@@ -188,6 +186,7 @@ Booking status distribution      🍩 Donut chart
 Bookings by property type        📊 Bar chart
 Cancelled bookings by city       📊 Bar chart
 Most popular amenities           📊 Horizontal bar chart
+
 📷 Project Charts
 Once chart images are exported, save them in the `visuals/` folder and
 display them here:
